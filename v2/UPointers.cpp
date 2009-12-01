@@ -1,0 +1,71 @@
+const int
+	PAccountID 		  = 0x00603898,
+
+	PHomePage 		  = 0x7CF0608C,
+	PHomePageOffset	  = 0x103758,
+	
+	PJmpGateGEngine   = 0x0051C8DD,
+	PRetGateGEngine   = PJmpGateGEngine + 5,
+	PRetGateGEngine2  = PJmpGateGEngine + 0x1E,
+	PKernel32str 	  = 0x005AE2BC,
+	PGarenaFolder 	  = 0x00604BC8,
+	PGetModuleHandleA = 0x0059A22C,
+	PGetProcAddress   = 0x0059A158,
+	PlstrcpyW 		  = 0x0059A374,
+	PlstrcmpW 		  = 0x0059A3A0,
+	PCodeCavePosition = 0x00599465,
+	PJmpGateNS		  = 0x004E4088,
+	PRetGateNS		  = PJmpGateNS + 6,
+
+	
+	PFloodChat[] =
+	{
+		0x00426646, 116, 235,	0x0041C5E9, 117, 235
+	},
+	PPingNumbers[] =
+	{
+		0x004E1942, 116, 144,	0x004E1943, 17, 144,		0x004E18FE, 117, 235
+	},
+	PPolygamy[] =
+	{
+		0x00432C66, 15, 233,    0x00432C67, 132, 206,		0x00432C68, 205, 0,		0x00432C6B, 0, 144
+	},
+
+	PExperience[] =
+	{
+		0x004A8022, 126, 144,		0x004A8023, 5, 144
+	},
+	PTraceLocation[] =
+	{
+		0x004CAA83, 117, 235
+	},
+	POtherChanges[] =
+	{
+		0x004C8D9A, 115, 235, 	0x00499BC2, 232, 144,		0x00499BC3, 153, 144,	0x00499BC4, 216, 144,
+		0x00499BC5, 252, 144,   0x00499BC6, 255, 144, 		0x0049975B, 15, 233,    0x0049975C, 135, 140,
+		0x0049975D, 139, 3,		0x0049975E, 3, 0,			0x00499760, 0, 144,		0x00544FA0, 138, 176,
+		0x00544FA1, 68,  0,		0x00544FA2, 36, 144,		0x00544FA3, 4, 144,     0x00545160, 138, 176,
+		0x00545161, 68,  0,		0x00545162, 36, 144,		0x00545163, 4, 144,   /*0x005A4AAE, 60, 40,
+		0x005A4AAF, 112, 80,	0x005A4AB3,	62, 47,		    0x005A4AB4,	60, 76,		0x005A4AB5, 108, 58,
+		0x005A4AB6, 58, 37,		0x005A4AB7,	37, 100,		0x005A4AB8, 100, 41,	0x005A4AB9, 62, 0*/ 
+	},
+	PClanAlert[] =
+	{
+		0x00436F18, 15, 144,    0x00436F19, 134, 144,		0x00436F1A, 196, 144,	0x00436F1B, 0, 144,
+		0x00436F1C, 0, 144,     0x00436F1D, 0, 144,			0x00436E46, 15, 233,    0x00436E47, 133, 186,
+		0x00436E48, 185, 0,		0x00436E4B, 0, 144
+	},
+
+	PBypassHacks[] =
+	{
+		0x004FCFE1, 15, 233,	0x004FCFE2, 132, 125,		0x004FCFE3, 124, 1,		0x004FCFE4, 1, 0,
+		0x004FCFE6, 0, 144,		0x004FCFB8, 15, 144,		0x004FCFB9, 133, 144,	0x004FCFBA, 71, 144,
+		0x004FCFBB, 1, 144,		0x004FCFBC, 0, 144,     	0x004FCFBD, 0, 144
+	},
+	PAlwaysPlaying[] =
+	{
+		0x0041FAB6, 15, 233,	0x0041FAB7, 132, 179,		0x0041FAB8, 178, 0,		0x0041FABB, 0, 144,
+		0x004E33F6, 138, 178,   0x004E33F7, 84, 1,			0x004E33F8, 36, 144,	0x004E33F9, 4, 144,
+		0x004E4155, 0, 1
+	};
+
